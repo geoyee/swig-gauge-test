@@ -15,3 +15,19 @@ SWIG 是一种软件开发工具，可将 C 和 C++ 编写的程序与各种高�
 - 需要安装`JDK >= 11`、`Nodejs >= 10.16.3`以及`Python >= 2.7`的前置运行环境
 - 需要安装[swigwin](https://phoenixnap.dl.sourceforge.net/project/swig/swigwin/swigwin-4.2.0/swigwin-4.2.0.zip)
 - 需要安装[gauge](https://github.com/getgauge/gauge/releases/download/v1.5.6/gauge-1.5.6-windows.x86_64.exe)以及对应的[语言插件](https://gauge.org/plugins/#language)
+
+## 运行
+
+提供了在Windows下的bat文件供执行：
+
+``` shell
+cd test
+run_test.bat
+```
+
+## TODO
+
+- [x] 初步功能测试
+- [ ] 自动安装文件到test中对应的文件夹
+- [ ] 消除固定路径的搜索
+- [ ] 增加CI进行自动测试 
